@@ -68,7 +68,7 @@ For agents, follow [AGENTS.md](AGENTS.md).
 }
 ```
 
-## License
+## License:
 
 [MIT](LICENSE)
 

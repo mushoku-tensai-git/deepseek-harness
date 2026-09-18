@@ -9,6 +9,16 @@ from .base_plugin import (
     PluginMetadata,
     ToolCall,
 )
+from .security_plugin import (
+    ActionType,
+    create_security_plugin,
+    Decision,
+    PermissionDeniedException,
+    PermissionRequest,
+    RiskLevel,
+    Rule,
+    SecurityPlugin,
+)
 
 __all__ = [
     "BasePlugin",
@@ -17,4 +27,13 @@ __all__ = [
     "GenerationResponse",
     "PluginMetadata",
     "ToolCall",
+    # Security plugin exports
+    "SecurityPlugin",
+    "create_security_plugin",
+    "PermissionDeniedException",
+    "PermissionRequest",
+    "RiskLevel",
+    "ActionType",
+    "Decision",
+    "Rule",
 ]
